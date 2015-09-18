@@ -1,0 +1,357 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateEventActivity"
+    android:background="@drawable/ball" >
+
+    <TextView
+        android:id="@+id/current_events_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Current Event Invites"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+  
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="0.25" >
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/event_username_header"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="1dp"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="Invite By"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:orientation="horizontal" >
+
+                        
+                        <TextView
+				            android:id="@+id/event_username_value"
+				            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center|center"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:textSize="25sp"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+                </LinearLayout>
+     
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/event_eventname_header"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="1dp"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="Event Name"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/event_eventname_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center|center"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:textSize="25sp"
+                            android:textColor="#ffffff" />
+                        
+                        
+                    </LinearLayout>
+                </LinearLayout>
+     
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/event_eventtime_header"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="0dp"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="Time of Event"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/event_eventtime_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center|center"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:textSize="25sp"
+                            android:textColor="#ffffff" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" 
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/event_chosengame_header"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="0dp"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="Invite for "
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/event_chosengame_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginRight="2dp"
+                            android:gravity="center|center"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:textSize="25sp"
+                            android:textColor="#ffffff" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        
+    </LinearLayout>
+            <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1.25" >
+    
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/prevEventButton"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:text="Prev"
+                android:textColor="#ffffff" />
+
+            </LinearLayout>
+             <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
+
+                 <Button
+                     android:id="@+id/joinEventButton"
+                     android:layout_width="match_parent"
+                     android:layout_height="32dp"
+                     android:background="#C0C0C0"
+                     android:text="Join Event"
+                     android:textStyle="bold" />
+
+            </LinearLayout>
+            
+             <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
+
+                 <Button
+                     android:id="@+id/unjoinEventButton"
+                     android:layout_width="match_parent"
+                     android:layout_height="32dp"
+                     android:background="#C0C0C0"
+                     android:text="Unjoin Event"
+                     android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/nextEventButton"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="clip_horizontal"
+                    android:background="#000000"
+                    android:text="Next"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+            
+</LinearLayout>
