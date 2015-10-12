@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Student Name: Anuraag Konda
+     uta id: 1001051814   
+-->
+<!--  References: https://sites.google.com/site/gmapsdevelopment/
+                  https://developers.google.com/maps/documentation/javascript/geocoding
+                  https://developers.google.com/maps/documentation/javascript/examples/marker-remove
+                  https://developers.google.com/maps/documentation/javascript/examples/map-simple
+                  https://developers.google.com/maps/documentation/javascript/events
+                  https://www.yelp.com/developers/documentation/v2/search_api
+
+      Comments:   The bounding is done by using map.getBounds(). The bounds send by this function is sent to yelp api.
+                  On geocoding the address results sent by yelp search results few address gives latitude and longitude 
+                  greater than the bounds. Hence at times few markers are plotted nearby the bounds of maps.
+                  This error is caused mainly because of address given in yelp response and also sometimes due to geocoder which
+                  gives partial result according to documentation. Hence all the search is located within bounds and project is working properly
+-->
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Best Restaurants on a Map</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8"/>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>    
+    <script type="text/javascript" src="yelp.js"></script>
+    
+    
+  </head>
+  <body onload="initialize();">
+    <form>
+       <label>Search Terms: <input type="text" id="search"/></label>
+       <input type="button" onclick="sendRequest1();" value="Find"/>
+    </form>
+  
+    <div id="map-canvas" style="height: 500px; width: 600px;"></div>
+    <div id="output"></div>
+  </body>
+</html>
+
+
+
